@@ -91,6 +91,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="sag-8w-boB"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="LOCAL"/>
                                 <state key="selected" title="LOCAL">
                                     <color key="titleColor" red="1" green="0.67370333684375561" blue="0.71714249085526061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -101,6 +102,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="h2g-G7-EX9"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="GLOBAL"/>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UbE-EB-izU">
@@ -120,7 +122,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="505"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bzm-sX-FIw">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="byo" translatesAutoresizingMaskIntoConstraints="NO" id="bzm-sX-FIw">
                                                     <rect key="frame" x="10" y="10" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="ApE-zl-kCn"/>
@@ -132,14 +134,14 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boyo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CQ-T3-063">
-                                                    <rect key="frame" x="80" y="10" width="44" height="25"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="byo official" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CQ-T3-063">
+                                                    <rect key="frame" x="70" y="10" width="93" height="25"/>
                                                     <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="21"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Du-0H-Q0c">
-                                                    <rect key="frame" x="80" y="45" width="31" height="15"/>
+                                                    <rect key="frame" x="70" y="45" width="31" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -152,7 +154,7 @@
                                                     </constraints>
                                                     <state key="normal" image="menu"/>
                                                 </button>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Ku-NF-fIe">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="7Ku-NF-fIe">
                                                     <rect key="frame" x="279.5" y="30" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="40" id="879-Jr-gKm"/>
@@ -173,7 +175,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sOt-te-UBL">
                                                     <rect key="frame" x="0.0" y="80" width="414" height="357.5"/>
                                                 </imageView>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gzC-iw-HIx">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skiing" translatesAutoresizingMaskIntoConstraints="NO" id="gzC-iw-HIx">
                                                     <rect key="frame" x="364" y="90" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="40" id="S4f-5O-VJR"/>
@@ -231,10 +233,10 @@
                                             <constraint firstAttribute="bottom" secondItem="KwI-Tg-Vn0" secondAttribute="bottom" constant="20" id="LBk-Vf-zgz"/>
                                             <constraint firstItem="CHV-Qg-Zhf" firstAttribute="centerY" secondItem="KwI-Tg-Vn0" secondAttribute="centerY" id="Myd-DD-v84"/>
                                             <constraint firstItem="4CQ-T3-063" firstAttribute="top" secondItem="bzm-sX-FIw" secondAttribute="top" id="NQS-yn-b2Q"/>
-                                            <constraint firstItem="4CQ-T3-063" firstAttribute="leading" secondItem="bzm-sX-FIw" secondAttribute="trailing" constant="20" id="S4W-X5-PnP"/>
+                                            <constraint firstItem="4CQ-T3-063" firstAttribute="leading" secondItem="bzm-sX-FIw" secondAttribute="trailing" constant="10" id="S4W-X5-PnP"/>
                                             <constraint firstItem="gzC-iw-HIx" firstAttribute="top" secondItem="sOt-te-UBL" secondAttribute="top" constant="10" id="Ssc-B9-Jeq"/>
                                             <constraint firstItem="1d7-37-1Il" firstAttribute="bottom" secondItem="5Du-0H-Q0c" secondAttribute="bottom" id="Tzk-0S-mUc"/>
-                                            <constraint firstItem="5Du-0H-Q0c" firstAttribute="leading" secondItem="bzm-sX-FIw" secondAttribute="trailing" constant="20" id="UaT-0E-u5F"/>
+                                            <constraint firstItem="5Du-0H-Q0c" firstAttribute="leading" secondItem="bzm-sX-FIw" secondAttribute="trailing" constant="10" id="UaT-0E-u5F"/>
                                             <constraint firstItem="gKv-ea-MBs" firstAttribute="leading" secondItem="fkw-Zg-6FB" secondAttribute="leading" id="X3U-dH-ncI"/>
                                             <constraint firstItem="KwI-Tg-Vn0" firstAttribute="leading" secondItem="CHV-Qg-Zhf" secondAttribute="trailing" constant="10" id="Zp5-tJ-Q9L"/>
                                             <constraint firstItem="e00-Oa-qUm" firstAttribute="top" secondItem="4CQ-T3-063" secondAttribute="top" id="bIj-Ya-B8i"/>
@@ -334,8 +336,11 @@
     </scenes>
     <resources>
         <image name="back" width="25" height="25"/>
+        <image name="byo" width="19" height="27.5"/>
         <image name="diamond" width="50" height="50"/>
+        <image name="location" width="48" height="48"/>
         <image name="menu" width="30" height="30"/>
         <image name="plane" width="26" height="26"/>
+        <image name="skiing" width="40" height="40"/>
     </resources>
 </document>

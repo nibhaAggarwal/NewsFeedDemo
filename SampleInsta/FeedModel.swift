@@ -13,6 +13,24 @@ struct FeedModel {
     var mediatype: Int?
     var modelArray = [FeedModel]()
     
+    
+    
+    mutating func paseData(data: [[String: AnyObject]]) -> [FeedModel] {
+        for item in data {
+            var modelObj = FeedModel()
+            modelObj.linkurl = item["linkurl"] as? String
+            modelObj.mediatype  = item["mediatype"] as? Int
+            modelArray.append(modelObj)
+        }
+        return modelArray
+    }
+    
+    
+    
+    
+    
+    
+    
     mutating func parseData(data: [[String: AnyObject]]) -> [FeedModel] {
         for item in data {
             var modelObj = FeedModel()
